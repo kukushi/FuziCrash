@@ -7,7 +7,25 @@
 		<key>FuziCrash.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8791FE3724E83DFB00B1D193</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8791FE4D24E83DFE00B1D193</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8791FE5824E83DFE00B1D193</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

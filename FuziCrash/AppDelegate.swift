@@ -14,6 +14,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let xmlWithBasicTypes = """
+            <root>
+              <string>the string value</string>
+              <int>100</int>
+              <double>100.45</double>
+              <float>44.12</float>
+              <bool1>0</bool1>
+              <bool2>true</bool2>
+              <empty></empty>
+              <basicItem id="1234">
+                <name>the name of basic item</name>
+                <price>99.14</price>
+              </basicItem>
+              <attribute int=\"1\"/>
+            </root>
+        """
+        PostParser().parse(str: xmlWithBasicTypes)
         return true
     }
 

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C235066D00723E936F84A1 /* Pods_FuziCrashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD18AF7087CEAB5E7F7AB765 /* Pods_FuziCrashTests.framework */; };
 		8791FE3C24E83DFB00B1D193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791FE3B24E83DFB00B1D193 /* AppDelegate.swift */; };
 		8791FE3E24E83DFB00B1D193 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791FE3D24E83DFB00B1D193 /* SceneDelegate.swift */; };
 		8791FE4024E83DFB00B1D193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791FE3F24E83DFB00B1D193 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		8791FE4824E83DFD00B1D193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8791FE4624E83DFD00B1D193 /* LaunchScreen.storyboard */; };
 		8791FE5324E83DFE00B1D193 /* FuziCrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791FE5224E83DFE00B1D193 /* FuziCrashTests.swift */; };
 		8791FE5E24E83DFE00B1D193 /* FuziCrashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791FE5D24E83DFE00B1D193 /* FuziCrashUITests.swift */; };
+		8791FE6C24E83F5900B1D193 /* PostParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791FE6B24E83F5900B1D193 /* PostParser.swift */; };
+		87D1E0D846B5FD2C8FF1BF35 /* Pods_FuziCrash_FuziCrashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058AEDBE54DC292DC9E37209 /* Pods_FuziCrash_FuziCrashUITests.framework */; };
+		E88A3C30DB99AF7C60D56270 /* Pods_FuziCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764C38DEA20027A5EA4507AE /* Pods_FuziCrash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		058AEDBE54DC292DC9E37209 /* Pods_FuziCrash_FuziCrashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuziCrash_FuziCrashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C44659E14E4FDB6CD7DB75 /* Pods-FuziCrash-FuziCrashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuziCrash-FuziCrashUITests.debug.xcconfig"; path = "Target Support Files/Pods-FuziCrash-FuziCrashUITests/Pods-FuziCrash-FuziCrashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62EE0D6DEF2A1FDD85BEE084 /* Pods-FuziCrash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuziCrash.release.xcconfig"; path = "Target Support Files/Pods-FuziCrash/Pods-FuziCrash.release.xcconfig"; sourceTree = "<group>"; };
+		764C38DEA20027A5EA4507AE /* Pods_FuziCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuziCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8791FE3824E83DFB00B1D193 /* FuziCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuziCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8791FE3B24E83DFB00B1D193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8791FE3D24E83DFB00B1D193 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		8791FE5924E83DFE00B1D193 /* FuziCrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuziCrashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8791FE5D24E83DFE00B1D193 /* FuziCrashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuziCrashUITests.swift; sourceTree = "<group>"; };
 		8791FE5F24E83DFE00B1D193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8791FE6B24E83F5900B1D193 /* PostParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostParser.swift; sourceTree = "<group>"; };
+		9ADC9F7113D8716AC28362B1 /* Pods-FuziCrashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuziCrashTests.release.xcconfig"; path = "Target Support Files/Pods-FuziCrashTests/Pods-FuziCrashTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2FC49B3C995179407E5137F /* Pods-FuziCrash-FuziCrashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuziCrash-FuziCrashUITests.release.xcconfig"; path = "Target Support Files/Pods-FuziCrash-FuziCrashUITests/Pods-FuziCrash-FuziCrashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD18AF7087CEAB5E7F7AB765 /* Pods_FuziCrashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuziCrashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D034E960531E355C71ABD49A /* Pods-FuziCrashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuziCrashTests.debug.xcconfig"; path = "Target Support Files/Pods-FuziCrashTests/Pods-FuziCrashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4755021044629256FE130EC /* Pods-FuziCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuziCrash.debug.xcconfig"; path = "Target Support Files/Pods-FuziCrash/Pods-FuziCrash.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88A3C30DB99AF7C60D56270 /* Pods_FuziCrash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C235066D00723E936F84A1 /* Pods_FuziCrashTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D1E0D846B5FD2C8FF1BF35 /* Pods_FuziCrash_FuziCrashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66C91434BEA39731198FAF63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				764C38DEA20027A5EA4507AE /* Pods_FuziCrash.framework */,
+				058AEDBE54DC292DC9E37209 /* Pods_FuziCrash_FuziCrashUITests.framework */,
+				CD18AF7087CEAB5E7F7AB765 /* Pods_FuziCrashTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8791FE2F24E83DFB00B1D193 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				8791FE5124E83DFE00B1D193 /* FuziCrashTests */,
 				8791FE5C24E83DFE00B1D193 /* FuziCrashUITests */,
 				8791FE3924E83DFB00B1D193 /* Products */,
+				99CCFB966A63B021C8166639 /* Pods */,
+				66C91434BEA39731198FAF63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		8791FE3A24E83DFB00B1D193 /* FuziCrash */ = {
 			isa = PBXGroup;
 			children = (
+				8791FE6B24E83F5900B1D193 /* PostParser.swift */,
 				8791FE3B24E83DFB00B1D193 /* AppDelegate.swift */,
 				8791FE3D24E83DFB00B1D193 /* SceneDelegate.swift */,
 				8791FE3F24E83DFB00B1D193 /* ViewController.swift */,
@@ -128,6 +158,19 @@
 			path = FuziCrashUITests;
 			sourceTree = "<group>";
 		};
+		99CCFB966A63B021C8166639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4755021044629256FE130EC /* Pods-FuziCrash.debug.xcconfig */,
+				62EE0D6DEF2A1FDD85BEE084 /* Pods-FuziCrash.release.xcconfig */,
+				21C44659E14E4FDB6CD7DB75 /* Pods-FuziCrash-FuziCrashUITests.debug.xcconfig */,
+				B2FC49B3C995179407E5137F /* Pods-FuziCrash-FuziCrashUITests.release.xcconfig */,
+				D034E960531E355C71ABD49A /* Pods-FuziCrashTests.debug.xcconfig */,
+				9ADC9F7113D8716AC28362B1 /* Pods-FuziCrashTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8791FE6224E83DFE00B1D193 /* Build configuration list for PBXNativeTarget "FuziCrash" */;
 			buildPhases = (
+				3EA894A54EE50FB7437ED7E5 /* [CP] Check Pods Manifest.lock */,
 				8791FE3424E83DFB00B1D193 /* Sources */,
 				8791FE3524E83DFB00B1D193 /* Frameworks */,
 				8791FE3624E83DFB00B1D193 /* Resources */,
+				33DB41C000FDDCE8D01DA814 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8791FE6524E83DFE00B1D193 /* Build configuration list for PBXNativeTarget "FuziCrashTests" */;
 			buildPhases = (
+				22CC4FA30CBEDBB07176BFFB /* [CP] Check Pods Manifest.lock */,
 				8791FE4A24E83DFE00B1D193 /* Sources */,
 				8791FE4B24E83DFE00B1D193 /* Frameworks */,
 				8791FE4C24E83DFE00B1D193 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8791FE6824E83DFE00B1D193 /* Build configuration list for PBXNativeTarget "FuziCrashUITests" */;
 			buildPhases = (
+				1E402BAF8D98AD237B97AEC7 /* [CP] Check Pods Manifest.lock */,
 				8791FE5524E83DFE00B1D193 /* Sources */,
 				8791FE5624E83DFE00B1D193 /* Frameworks */,
 				8791FE5724E83DFE00B1D193 /* Resources */,
+				C4B2C463CA36BFEA4BB92FA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E402BAF8D98AD237B97AEC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuziCrash-FuziCrashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22CC4FA30CBEDBB07176BFFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuziCrashTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33DB41C000FDDCE8D01DA814 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuziCrash/Pods-FuziCrash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuziCrash/Pods-FuziCrash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuziCrash/Pods-FuziCrash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA894A54EE50FB7437ED7E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuziCrash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B2C463CA36BFEA4BB92FA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuziCrash-FuziCrashUITests/Pods-FuziCrash-FuziCrashUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuziCrash-FuziCrashUITests/Pods-FuziCrash-FuziCrashUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuziCrash-FuziCrashUITests/Pods-FuziCrash-FuziCrashUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8791FE3424E83DFB00B1D193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +411,7 @@
 			files = (
 				8791FE4024E83DFB00B1D193 /* ViewController.swift in Sources */,
 				8791FE3C24E83DFB00B1D193 /* AppDelegate.swift in Sources */,
+				8791FE6C24E83F5900B1D193 /* PostParser.swift in Sources */,
 				8791FE3E24E83DFB00B1D193 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +585,14 @@
 		};
 		8791FE6324E83DFE00B1D193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4755021044629256FE130EC /* Pods-FuziCrash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6N93T3598;
 				INFOPLIST_FILE = FuziCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +606,14 @@
 		};
 		8791FE6424E83DFE00B1D193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EE0D6DEF2A1FDD85BEE084 /* Pods-FuziCrash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6N93T3598;
 				INFOPLIST_FILE = FuziCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +627,7 @@
 		};
 		8791FE6624E83DFE00B1D193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D034E960531E355C71ABD49A /* Pods-FuziCrashTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +650,7 @@
 		};
 		8791FE6724E83DFE00B1D193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADC9F7113D8716AC28362B1 /* Pods-FuziCrashTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +673,7 @@
 		};
 		8791FE6924E83DFE00B1D193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C44659E14E4FDB6CD7DB75 /* Pods-FuziCrash-FuziCrashUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +694,7 @@
 		};
 		8791FE6A24E83DFE00B1D193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2FC49B3C995179407E5137F /* Pods-FuziCrash-FuziCrashUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
